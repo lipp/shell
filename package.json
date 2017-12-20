@@ -2,9 +2,10 @@
   "name": "lipp-shell",
   "version": "1.0.0",
   "description": "A minimal web app shell web-component / custom-element",
+  "keywords": ["shell", "web component", "custom element", "app", "drawer"],
   "main": "index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "exit 0",
     "dev": "cd src && rollup -c -w -o ../index.js",
     "build": "cd src && BABEL_ENV=production rollup -c -o ../index.min.js",
     "prepare": "npm run build"
