@@ -1,0 +1,21 @@
+  <header>
+    <slot name='expander' id='expander'>
+      <button id='burger'>
+        <svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+      </button>
+    </slot>
+    <div id='header'>
+      <slot name='header' ></slot>
+    </div>
+  </header>
+  <nav>
+    <div id='logo'>
+	    <slot name='logo'><span>Logo<span></slot>
+    </div>
+    <slot name='nav'></slot>
+    <ul id='links'><slot name='nav-links'></slot></ul>
+  </nav>
+  <div id='content'>
+    <slot name='content'></slot>
+  </div>
+  <div id='overlay' />

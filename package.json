@@ -1,0 +1,26 @@
+{
+  "name": "lipp-shell",
+  "version": "1.0.0",
+  "description": "A minimal web app shell web-component / custom-element",
+  "main": "index.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd src && rollup -c -w -o ../index.js",
+    "build": "cd src && BABEL_ENV=production rollup -c -o ../index.min.js",
+    "prepare": "npm run build"
+  },
+  "author": "Gerhard Preuss",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-minify": "^0.2.0",
+    "babel-preset-es2016": "^6.24.1",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.14",
+    "rollup": "^0.52.1",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-string": "^2.0.2"
+  },
+  "dependencies": {}
+}
