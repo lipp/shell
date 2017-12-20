@@ -2,7 +2,13 @@
   "name": "lipp-shell",
   "version": "1.0.0",
   "description": "A minimal web app shell web-component / custom-element",
-  "keywords": ["shell", "web component", "custom element", "app", "drawer"],
+  "keywords": [
+    "shell",
+    "web component",
+    "custom element",
+    "app",
+    "drawer"
+  ],
   "main": "index.min.js",
   "scripts": {
     "test": "exit 0",
