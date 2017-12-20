@@ -9,7 +9,7 @@ template.innerHTML = `
 `
 
 customElements.define(
-  'foo-shell',
+  'lipp-shell',
   class extends HTMLElement {
     constructor () {
       super()
